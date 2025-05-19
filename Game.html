@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+  <style>
+    body {
+    margin: 0;
+    background-color: #f0f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gameCanvas {
+    border: 1px solid black;
+}
+
+#controls {
+    margin-top: 10px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameboxx.sch.ivans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas" width="400" height="600"></canvas>
+    <div id="controls">
+        <button id="moveLeft">Kiri</button>
+        <button id="moveRight">Kanan</button>
+        <button id="attack">Serang</button>
+    </div>
+
+    <script src="ivans.java"></script>
+</body>
+</html>
